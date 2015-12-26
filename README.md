@@ -45,4 +45,5 @@ We should have a layout like:
 ![enter image description here](http://s30.postimg.org/6z21ujkdt/layoutch_3_1.png)
 
 (I added some background colors to make the result more clear)
+
 ![enter image description here](http://s18.postimg.org/w0f3hrbg9/example.png)
