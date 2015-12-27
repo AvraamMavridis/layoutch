@@ -1,178 +1,406 @@
-.layout-2-1 {
+.layoutch-2-1, .layoutch-3-1, .layoutch-4-1, .layoutch-5-1, .layoutch-6-1, .layoutch-7-1, .layoutch-8-1 {
   display: flex;
 }
-.layout-2-1 > * {
-  width: 50%;
+.layoutch-2-1 > *, .layoutch-3-1 > *, .layoutch-4-1 > *, .layoutch-5-1 > *, .layoutch-6-1 > *, .layoutch-7-1 > *, .layoutch-8-1 > * {
+  width: 100%;
 }
 
-.layout-2-2 {
+.layoutch-2-2, .layoutch-3-2, .layoutch-4-2, .layoutch-5-2, .layoutch-6-2, .layoutch-7-2, .layoutch-8-2 {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
-.layout-2-2 > * {
-  height: 50%;
+.layoutch-2-2 > *, .layoutch-3-2 > *, .layoutch-4-2 > *, .layoutch-5-2 > *, .layoutch-6-2 > *, .layoutch-7-2 > *, .layoutch-8-2 > * {
+  width: 100%;
 }
 
-.layout-2-3 {
+.layoutch-2-3 {
   display: flex;
 }
-.layout-2-3 > *:first-child {
-  width: 70%;
+.layoutch-2-3 > * {
+  width: 100%;
 }
-.layout-2-3 > *:nth-child(2) {
+.layoutch-2-3 > *:nth-child(2) {
   width: 30%;
 }
 
-.layout-2-4 {
+.layoutch-2-4 {
+  display: flex;
   display: flex;
 }
-.layout-2-4 > *:first-child {
+.layoutch-2-4 > * {
   width: 30%;
 }
-.layout-2-4 > *:nth-child(2) {
+.layoutch-2-4 > *:nth-child(2) {
   width: 70%;
 }
 
-.layout-2-5 {
+.layoutch-2-5 {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
-.layout-2-5 > *:first-child {
+.layoutch-2-5 > * {
+  width: 100%;
+}
+.layoutch-2-5 > * {
   height: 70%;
 }
-.layout-2-5 > *:nth-child(2) {
+.layoutch-2-5 > *:nth-child(2) {
   height: 30%;
 }
 
-.layout-2-6 {
+.layoutch-2-6 {
   display: flex;
   flex-direction: column;
 }
-.layout-2-6 > *:first-child {
+.layoutch-2-6 > * {
   height: 30%;
 }
-.layout-2-6 > *:nth-child(2) {
+.layoutch-2-6 > *:nth-child(2) {
   height: 70%;
 }
 
-.layout-3-1 {
+.layoutch-3-3 {
   display: flex;
   flex-wrap: wrap;
 }
-.layout-3-1 > *:first-child {
-  width: 100%;
-}
-.layout-3-1 > *:nth-child(2), .layout-3-1 > *:nth-child(3) {
+.layoutch-3-3 > * {
   width: 50%;
 }
+.layoutch-3-3 > *:nth-child(3) {
+  width: 100%;
+}
 
-.layout-3-2 {
+.layoutch-3-4 {
   display: flex;
   flex-wrap: wrap;
 }
-.layout-3-2 > *:first-child, .layout-3-2 > *:nth-child(2) {
+.layoutch-3-4 > * {
   width: 50%;
 }
-.layout-3-2 > *:nth-child(3) {
+.layoutch-3-4 > *:first-child {
   width: 100%;
 }
 
-.layout-3-3 {
+.layoutch-3-5 {
   display: flex;
   flex-wrap: wrap;
-}
-.layout-3-3 > * {
-  width: 100%;
-}
-
-.layout-3-4 {
   display: flex;
 }
-.layout-3-4 > * {
+.layoutch-3-5 > * {
   width: 100%;
 }
-
-.layout-3-5 {
-  display: flex;
-  flex-wrap: wrap;
-}
-.layout-3-5 > *:first-child {
-  width: 100%;
-  height: 50%;
-}
-.layout-3-5 > *:nth-child(2), .layout-3-5 > *:nth-child(3) {
-  width: 100%;
+.layoutch-3-5 > * {
   height: 25%;
 }
-
-.layout-3-6 {
-  display: flex;
-  flex-wrap: wrap;
-}
-.layout-3-6 > *:first-child, .layout-3-6 > *:nth-child(2) {
-  width: 100%;
-  height: 25%;
-}
-.layout-3-6 > *:nth-child(3) {
+.layoutch-3-5 > *:first-child {
   width: 100%;
   height: 50%;
 }
 
-.layout-3-7 {
-  display: flex;
-}
-.layout-3-7 > *:first-child {
-  width: 50%;
-  height: 100%;
-}
-.layout-3-7 > *:nth-child(2), .layout-3-7 > *:nth-child(3) {
-  width: 25%;
-  height: 100%;
-}
-
-.layout-3-8 {
-  display: flex;
-}
-.layout-3-8 > *:first-child, .layout-3-8 > *:nth-child(3) {
-  width: 25%;
-  height: 100%;
-}
-.layout-3-8 > *:nth-child(2) {
-  width: 50%;
-  height: 100%;
-}
-
-.layout-3-9 {
-  display: flex;
-}
-.layout-3-9 > *:first-child, .layout-3-9 > *:nth-child(2) {
-  width: 25%;
-  height: 100%;
-}
-.layout-3-9 > *:nth-child(3) {
-  width: 50%;
-  height: 100%;
-}
-
-.layout-4-1 {
-  display: flex;
-}
-.layout-4-1 > * {
-  width: 50%;
-}
-
-.layout-4-2 {
+.layoutch-3-6 {
   display: flex;
   flex-wrap: wrap;
 }
-.layout-4-2 > * {
+.layoutch-3-6 > * {
+  width: 100%;
+}
+.layoutch-3-6 > * {
+  height: 25%;
+}
+.layoutch-3-6 > *:nth-child(3) {
+  width: 100%;
+  height: 50%;
+}
+
+.layoutch-3-7 {
+  display: flex;
+}
+.layoutch-3-7 > * {
+  width: 25%;
+}
+.layoutch-3-7 > * {
+  height: 100%;
+}
+.layoutch-3-7 > *:first-child {
+  width: 50%;
+  height: 100%;
+}
+
+.layoutch-3-8 {
+  display: flex;
+}
+.layoutch-3-8 > * {
+  width: 25%;
+}
+.layoutch-3-8 > * {
+  height: 100%;
+}
+.layoutch-3-8 > *:nth-child(2) {
+  width: 50%;
+  height: 100%;
+}
+
+.layoutch-3-9 {
+  display: flex;
+}
+.layoutch-3-9 > * {
+  width: 25%;
+}
+.layoutch-3-9 > * {
+  height: 100%;
+}
+.layoutch-3-9 > *:nth-child(3) {
+  width: 50%;
+  height: 100%;
+}
+
+.layoutch-4-3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.layoutch-4-3 > * {
   width: 50%;
 }
 
-.layout-4-3 {
+.layoutch-4-4 {
   display: flex;
+  flex-wrap: wrap;
+}
+.layoutch-4-4 > * {
+  width: 33.33333%;
+}
+.layoutch-4-4 > * {
+  height: 50%;
+}
+.layoutch-4-4 > *:first-child {
+  height: 50%;
+  width: 100%;
+}
+
+.layoutch-4-5 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.layoutch-4-5 > * {
+  width: 33.33333%;
+}
+.layoutch-4-5 > * {
+  height: 50%;
+}
+.layoutch-4-5 > *:nth-child(4) {
+  height: 50%;
+  width: 100%;
+}
+
+.layoutch-4-6 {
+  display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
 }
-.layout-4-3 > * {
+.layoutch-4-6 > * {
+  width: 30%;
+}
+.layoutch-4-6 > * {
+  height: 33.33333%;
+}
+.layoutch-4-6 > *:first-child {
+  height: 100%;
+  width: 70%;
+}
+
+.layoutch-4-7 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.layoutch-4-7 > * {
+  width: 30%;
+}
+.layoutch-4-7 > * {
+  height: 33.33333%;
+}
+.layoutch-4-7 > *:nth-child(4) {
+  height: 100%;
+  width: 70%;
+}
+
+.layoutch-4-8 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.layoutch-4-8 > * {
+  height: 50%;
+}
+.layoutch-4-8 > *:nth-child(-n+2) {
+  width: 70%;
+}
+.layoutch-4-8 > *:nth-child(n+3) {
+  width: 30%;
+}
+
+.layoutch-4-9 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.layoutch-4-9 > * {
+  height: 50%;
+}
+.layoutch-4-9 > *:nth-child(-n+2) {
+  width: 30%;
+}
+.layoutch-4-9 > *:nth-child(n+3) {
+  width: 70%;
+}
+
+.layoutch-4-10 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.layoutch-4-10 > * {
+  width: 50%;
+}
+.layoutch-4-10 > * {
+  height: 30%;
+}
+.layoutch-4-10 > *:first-child, .layoutch-4-10 :nth-child(4) {
+  height: 70%;
+}
+
+.layoutch-4-11 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.layoutch-4-11 > * {
+  width: 50%;
+}
+.layoutch-4-11 > * {
+  height: 70%;
+}
+.layoutch-4-11 > *:first-child, .layoutch-4-11 :nth-child(4) {
+  height: 30%;
+}
+
+.layoutch-5-3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.layoutch-5-3 > * {
+  width: 50%;
+}
+.layoutch-5-3 > * {
+  height: 50%;
+}
+.layoutch-5-3 > *:nth-child(n+3) {
+  width: 33.33333333%;
+}
+
+.layoutch-5-4 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.layoutch-5-4 > * {
+  width: 33.33333%;
+}
+.layoutch-5-4 > * {
+  height: 50%;
+}
+.layoutch-5-4 > *:nth-child(n+4) {
+  width: 50%;
+}
+
+.layoutch-5-5 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.layoutch-5-5 > * {
+  width: 25%;
+}
+.layoutch-5-5 > * {
+  height: 30%;
+}
+.layoutch-5-5 > *:first-child {
+  width: 100%;
+  height: 70%;
+}
+
+.layoutch-5-6 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.layoutch-5-6 > * {
+  width: 25%;
+}
+.layoutch-5-6 > * {
+  height: 30%;
+}
+.layoutch-5-6 > *:nth-child(5) {
+  width: 100%;
+  height: 70%;
+}
+
+.layoutch-5-7 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.layoutch-5-7 > * {
+  width: 30%;
+}
+.layoutch-5-7 > * {
   height: 25%;
+}
+.layoutch-5-7 > *:first-child {
+  width: 70%;
+  height: 100%;
+}
+
+.layoutch-5-8 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.layoutch-5-8 > * {
+  width: 30%;
+}
+.layoutch-5-8 > * {
+  height: 25%;
+}
+.layoutch-5-8 > *:nth-child(5) {
+  width: 70%;
+  height: 100%;
+}
+
+.layoutch-5-9 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.layoutch-5-9 > * {
+  width: 50%;
+}
+.layoutch-5-9 > * {
+  height: 25%;
+}
+.layoutch-5-9 > *:nth-child(3) {
+  width: 100%;
+  height: 50%;
+}
+
+.layoutch-5-10 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.layoutch-5-10 > * {
+  width: 25%;
+}
+.layoutch-5-10 > * {
+  height: 50%;
+}
+.layoutch-5-10 > *:nth-child(3) {
+  width: 50%;
+  height: 100%;
 }
