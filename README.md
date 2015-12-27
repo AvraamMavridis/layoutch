@@ -4,7 +4,7 @@ Layoutch! - Responsive layouts with flexbox
 ###How to use
 
 1. Include the layoutch.css in your website.
-2. Add a layoutch class to one of your container (the container should have defined width, height)
+2. Add a layoutch class to one of your containers (the container should have defined width, height)
 3. Celebrate.
 
 example:
@@ -48,19 +48,16 @@ We should have a layout like:
 
 ![enter image description here](http://s18.postimg.org/w0f3hrbg9/example.png)
 
-###Layouts
-|  Container class 	| Number of childs   	|  Layout 	|
-|---	|---	|---	|
-|` .layoutch-2-1`|   2	|  ![enter image description here](http://s22.postimg.org/5d0gbhwdd/layoutch_2_1.png)  	|
-| ` .layoutch-2-2`  	| 2  	| ![enter image description here](http://s21.postimg.org/qghjczbw7/layoutch_2_2.png)  	|
-| ` .layoutch-2-3`  	| 2  	|  ![enter image description here](http://s2.postimg.org/yoclq8dah/layoutch_2_3.png) 	|
-| ` .layoutch-2-4`  	| 2  	| ![enter image description here](http://s3.postimg.org/dpbcgwxzn/layoutch_2_4.png) 	|
-| ` .layoutch-2-5`  	| 2  	|  ![enter image description here](http://s22.postimg.org/83iz067tt/layoutch_2_5.png) 	|
-| ` .layoutch-2-6`  	| 2  	|  ![enter image description here](http://s29.postimg.org/b0m9gqy93/layoutch_2_6.png) 	|
-| ` .layoutch-3-1`  	| 3  	|  ![enter image description here](http://s17.postimg.org/pvcqnsvdb/layoutch_3_1.png) 	|
-| ` .layoutch-3-2`  	| 3  	|  ![enter image description here](http://s21.postimg.org/cxxbeucjb/layoutch_3_2.png) 	|
-| ` .layoutch-3-3`  	| 3  	| ![enter image description here](http://s22.postimg.org/c2yk1yq01/layoutch_3_3.png)|
-| ` .layoutch-3-4`  	| 3  	|  ![enter image description here](http://s22.postimg.org/thisa8n4x/layoutch_3_4.png) 	|
-| ` .layoutch-3-5`  	| 3  	|  ![enter image description here](http://s22.postimg.org/64kqrq71d/layoutch_3_5.png) 	|
-| ` .layoutch-3-6`  	| 3  	|  ![enter image description here](http://s22.postimg.org/lslxyimn5/layoutch_3_6.png) 	|
-| ` .layoutch-3-7`  	| 3  	|  ![enter image description here](http://s22.postimg.org/xt7dz8u1t/layoutch_3_7.png) 	|
+###Layoutch classes
+![enter image description here](http://s9.postimg.org/jo7xbnvpr/image.png)
+![enter image description here](http://s9.postimg.org/6lcase5hr/image.png)
+![enter image description here](http://s9.postimg.org/4i1vkq5ov/image.png)
+![enter image description here](http://s9.postimg.org/6nw6f895b/image.png)
+![enter image description here](http://s9.postimg.org/5mvxq3s5r/image.png)
+![enter image description here](http://s9.postimg.org/7sq8klvm7/image.png)
+![enter image description here](http://s9.postimg.org/bccohbrrj/image.png)
+![enter image description here](http://s9.postimg.org/cso6zguof/image.png)
+![enter image description here](http://s9.postimg.org/5qq9d9r2n/image.png)
+![enter image description here](http://s9.postimg.org/qq6d4rsr3/image.png)
+![enter image description here](http://s9.postimg.org/hjo2hhnin/image.png)
+![enter image description here](http://s9.postimg.org/4pq0o5a33/image.png)
