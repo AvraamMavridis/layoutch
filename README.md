@@ -1,5 +1,5 @@
 # Layoutch!
-Layoutch! - Responsive layouts with flexbox
+Layoutch! - Responsive layouts with flexbox inspired from [Layout App for Instagram](https://itunes.apple.com/us/app/layout-from-instagram/id967351793?mt=8)
 
 ###How to use
 
