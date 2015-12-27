@@ -48,6 +48,11 @@ We should have a layout like:
 
 ![enter image description here](http://s18.postimg.org/w0f3hrbg9/example.png)
 
+###Helper classes to hide extra children. 
+
+Layoutch has some extra helper classes that can be used to hide the extra children. e.g. our markdown has 3 children but we want to use the `.layoutch-2-1` and hide the 3rd extra child. We can combine `.layoutch-2-1` the class with the `.hide-more-than-2` class.
+Layoutch has 5 classes for that `.hide-more-than-2`,`.hide-more-than-3`,`.hide-more-than-4`,`.hide-more-than-5`,`.hide-more-than-6`.
+
 ###Layoutch classes
 ![enter image description here](http://s9.postimg.org/jo7xbnvpr/image.png)
 
