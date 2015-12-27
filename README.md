@@ -72,3 +72,9 @@ We should have a layout like:
 ![enter image description here](http://s9.postimg.org/hjo2hhnin/image.png)
 
 ![enter image description here](http://s9.postimg.org/4pq0o5a33/image.png)
+
+![enter image description here](http://s30.postimg.org/4kqhdqyjl/image.png)
+
+![enter image description here](http://s30.postimg.org/cc77cb2ox/image.png)
+
+![enter image description here](http://s30.postimg.org/ibuyfynhd/image.png)
