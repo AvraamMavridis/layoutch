@@ -5,7 +5,7 @@ Layoutch! - Responsive layouts with flexbox
 
 1. Include the layoutch.css in your website.
 2. Add a layoutch class to one of your containers (the container should have defined width, height)
-3. Celebrate.
+3. Celebrate. :boom:
 
 example:
 
@@ -50,14 +50,25 @@ We should have a layout like:
 
 ###Layoutch classes
 ![enter image description here](http://s9.postimg.org/jo7xbnvpr/image.png)
+
 ![enter image description here](http://s9.postimg.org/6lcase5hr/image.png)
+
 ![enter image description here](http://s9.postimg.org/4i1vkq5ov/image.png)
+
 ![enter image description here](http://s9.postimg.org/6nw6f895b/image.png)
+
 ![enter image description here](http://s9.postimg.org/5mvxq3s5r/image.png)
+
 ![enter image description here](http://s9.postimg.org/7sq8klvm7/image.png)
+
 ![enter image description here](http://s9.postimg.org/bccohbrrj/image.png)
+
 ![enter image description here](http://s9.postimg.org/cso6zguof/image.png)
+
 ![enter image description here](http://s9.postimg.org/5qq9d9r2n/image.png)
+
 ![enter image description here](http://s9.postimg.org/qq6d4rsr3/image.png)
+
 ![enter image description here](http://s9.postimg.org/hjo2hhnin/image.png)
+
 ![enter image description here](http://s9.postimg.org/4pq0o5a33/image.png)
