@@ -53,6 +53,30 @@ We should have a layout like:
 Layoutch has some extra helper classes that can be used to hide the extra children. e.g. our markdown has 3 children but we want to use the `.layoutch-2-1` and hide the 3rd extra child. We can combine `.layoutch-2-1` the class with the `.hide-more-than-2` class.
 Layoutch has 5 classes for that `.hide-more-than-2`,`.hide-more-than-3`,`.hide-more-than-4`,`.hide-more-than-5`,`.hide-more-than-6`.
 
+###Nesting layoutch classes
+Ofcourse we can compine layoutch classes to create more complex layouts. Example:
+
+```html
+<div class="layoutch-2-1 democontainer">
+  <div class="layoutch-6-2">
+    <div class="box1">1</div>
+    <div class="box2">2</div>
+    <div class="box3">3</div>
+    <div class="box4">4</div>
+    <div class="box5">5</div>
+    <div class="box6">6</div>
+  </div>
+   <div class="layoutch-5-1">
+    <div class="box1">1</div>
+    <div class="box2">2</div>
+    <div class="box3">3</div>
+    <div class="box4">4</div>
+    <div class="box5">5</div>
+  </div>
+</div>
+```
+![enter image description here](http://s9.postimg.org/9zehpi91r/image.png)
+
 ###Layoutch classes
 ![enter image description here](http://s9.postimg.org/jo7xbnvpr/image.png)
 
