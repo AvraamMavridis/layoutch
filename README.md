@@ -107,3 +107,11 @@ Ofcourse we can compine layoutch classes to create more complex layouts. Example
 ![enter image description here](http://s30.postimg.org/cc77cb2ox/image.png)
 
 ![enter image description here](http://s30.postimg.org/ibuyfynhd/image.png)
+
+###Contributing
+
+Please feel free to submit any PR, Issue or Question. :smile:
+
+###License
+
+MIT
